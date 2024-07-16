@@ -1,0 +1,138 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainGame{
+   display: grid;
+  
+   grid-template-columns: auto auto auto;
+   /* justify-content: center; 
+   align-content: center; */
+   /* margin-left: 70px; */
+   /* border: 1px solid black; */
+   padding-left: 90px;
+   padding-top: 20px;
+   gap:5px;
+   
+}
+body{
+    background-color: #0e0e0e;
+}
+
+.imag{
+    text-decoration: none;
+    width: 80%;
+    padding: 10px;
+}
+
+.imag1{
+    width: 100%;
+    margin:auto
+}
+
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 99%;
+    padding: 10px;
+}
+
+.navbar > ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+.rockIcon{
+    padding: 10px;
+
+}
+
+.launchButton{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    background-color: #fcaf17;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.butico > i{
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.footer{
+    padding: 20px;
+}
+
+.footCol1{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footCol2{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+
+}
+.footCol3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+
+.footicon{
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.carefoot > p{
+    padding: 5px;
+    color: grey;
+    font-size: 15px;
+}
+
+.carefoot > p:hover{
+    color: #fcaf17;
+
+}
+
+.comfoot > span{
+    padding: 10px;
+}
+
+.comfoot > span:hover{
+    color: #fcaf17;
+}
+
+.form-select{
+    background-color: #0e0e0e;
+    color: white;
+    border:none;
+    width: 50%;
+   
+}
+
+.lang{
+    justify-content: end;
+    display: flex;
+}
+
+.lang > i{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}

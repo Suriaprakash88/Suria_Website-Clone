@@ -1,0 +1,354 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* .mainmodel3{
+    background-image: url(images/Model-3---Red-Rear-Sunset.jpg);
+    width: 100%;
+    height: 100%;
+    
+} */
+
+body{
+    margin: 0px;
+    background-color: #0e0e0e;
+}
+/* .mainPage{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+
+} */
+
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar > ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+.rockIcon{
+    padding: 10px;
+
+}
+
+.launchButton{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    background-color: #fcaf17;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.butico > i{
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.trailer{
+    /* display: flex;
+    justify-content: space-evenly; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* .imgTrailer{
+    display: flex;
+    border: 2px solid white;
+}
+
+.traimg{
+    width: 80%
+    /* height: 35%; */
+
+/* } */
+
+/* .traimgcon{
+    margin: auto;
+    padding: 10px;
+}
+
+.traContent{
+    /* border: 2px solid white; */
+    /* margin-left: 140px;
+} */ */
+
+/* .watnow{
+    font-size: 25px;
+    /* border: 2px solid white; */
+    /* border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 20px; */
+/* } */ */ */
+
+.para1{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    /* border:2px solid white; */
+    border-radius: 50%;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+}
+
+
+.card-deck{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.card-img-top{
+    padding: 10px;
+    width: 28rem;
+    
+}
+
+.card{
+    /* border: 0.5px solid white; */
+    border-radius: 20px;
+    background-color: black;
+    width: 28rem;
+    
+}
+
+.card-body{
+    background-color: black;
+    color: white;
+    /* padding: 10px; */
+}
+
+.card-text{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#date1{
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 10px;
+    color: grey;
+}
+
+.linkchk{
+    margin: auto;
+    text-align: center;
+    text-decoration-color: #fcaf17;
+    text-decoration-thickness: 5px;
+}
+
+.linkchk > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration-color: #fcaf17;
+    text-decoration-thickness: 5px;
+}
+
+.nwLink:hover{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #fcaf17;
+}
+
+
+
+.linkchk{
+    padding: 10px;
+    /* border:1px solid white */
+}
+
+.game1{
+    width: 92%;
+    margin-left: 50px;
+    transition: .2s;
+    
+}
+
+.game-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.game-in{
+    padding: 10px;
+    width:80%;
+}
+
+.game1:hover{
+    transform: scale(1.08)
+
+}
+
+.game-in:hover{
+    transform: scale(1.04);
+}
+
+.d-block{
+    width: 100%;
+
+}
+
+.link2{
+    /* border: 1px solid white; */
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.links{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration-color: #fcaf17;
+    text-decoration-thickness: 5px;
+}
+.links:hover{
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #fcaf17;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.footCol1{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footCol2{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+
+}
+.footCol3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+
+.footicon{
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.carefoot > p{
+    padding: 5px;
+    color: grey;
+    font-size: 15px;
+}
+
+.carefoot > p:hover{
+    color: #fcaf17;
+
+}
+
+.comfoot > span{
+    padding: 10px;
+}
+
+.comfoot > span:hover{
+    color: #fcaf17;
+}
+
+.form-select{
+    background-color: #0e0e0e;
+    color: white;
+    border:none;
+    width: 50%;
+   
+}
+
+.lang{
+    justify-content: end;
+    display: flex;
+}
+
+.lang > i{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#demo{
+    padding: 10px;
+}
+
+.d-block{
+    width: 90%;
+    margin-left:70px;
+}
+
+.button1{
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.button1:hover{
+    background-color: #fcaf17;
+    color: black;
+}
+
+.tra2{
+    font-weight: bold;
+    color: blue;
+    border: none;
+
+}
+
+.button2{
+
+    font-weight: bold;
+    background-color: transparent;
+    color:black;
+    border: none;
+
+}
+
+.button2:hover{
+    background-color: #fcaf17;
+    color: black;
+}
+
+.card-links{
+    text-decoration: none;
+}
